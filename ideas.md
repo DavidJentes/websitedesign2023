@@ -1,4 +1,3 @@
-
 # Ideas for Website Design 2023
 
 * ~~Newly released study Bible advertisement~~ (Doesn't give enough room for creativity)
