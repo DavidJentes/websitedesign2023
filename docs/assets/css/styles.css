@@ -2,7 +2,58 @@
 
 body {
     font-family: "Roboto", sans-serif;
+}
+
+header {
     text-align: center;
+}
+
+header h1 {
+    display: inline-block;
+    padding: 10px;
+}
+
+nav {
+    display: inline-block;
+    padding: 10px;
+}
+
+nav ul, footer ul {
+    list-style: none;
+    display: inline-block;
+    padding: 0;
+}
+
+nav li, footer li {
+    display: inline-block;
+    padding: 0;
+}
+
+nav a {
+    color: #dddddd;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #333333;
+    transition: color 750ms, background-color 750ms;
+}
+
+nav a:hover, nav a:focus {
+    color: #ffffff;
+    background-color: #555555;
+}
+
+main {
+    text-align: center;
+}
+
+.cover {
+    height: 100%;
+    padding: 25% 0px;
+    background-image: url("");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 article {
