@@ -14,13 +14,13 @@ header {
     position: fixed;
     top: 10px;
     width: calc(100% - 60px);
-    transition: font-size 200ms;
 }
 
 header h1 {
     display: inline-block;
     text-align: left;
     padding: 10px;
+    transition: font-size 200ms;
 }
 
 nav {
@@ -38,6 +38,7 @@ nav ul, footer ul {
 nav li, footer li {
     display: inline-block;
     padding: 0;
+    transition: font-size 200ms;
 }
 
 nav a {
