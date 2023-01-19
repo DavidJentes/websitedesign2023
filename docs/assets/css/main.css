@@ -71,12 +71,6 @@ main {
     border-radius: 50px;
 }
 
-@media screen and (max-width: 650px) {
-    main {
-		margin-top: 250px;
-	}
-}
-
 @media screen and (max-width: 370px) {
 	header {
 		margin: 10px;
