@@ -10,3 +10,10 @@ Main goals of the project:
 * Have logical connections between design elements
 * Have variety in elements, but make sure the elements make sense for the use case
 * Have good graphic design elements
+
+## Mirrors
+
+There are two mirrors of this project.
+
+[DavidDGTNT CGit mirror](https://daviddgtnt.duckdns.org/cgit/websitedesign2023)
+[GitHub mirror](https://github.com/DavidJentes/websitedesign2023)
