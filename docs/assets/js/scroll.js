@@ -12,16 +12,14 @@ function headerScroll() {
 		headerText.style.fontSize = "16px"
 		headerText.style.padding = "5px"
 		for (const button of headerButtons) {
-			button.style.fontSize = "12px"
-			button.children[0].style.padding = "15px"
+			button.children[0].className = "navscroll"
 		}
 	} else {
 		header.style.padding = "10px"
 		headerText.style.fontSize = "32px"
 		headerText.style.padding = "10px"
 		for (const button of headerButtons) {
-			button.style.fontSize = "16px"
-			button.children[0].style.padding = "20px"
+			button.children[0].className = ""
 		}
 	}
 }

@@ -2,4 +2,5 @@
 
 * ~~Newly released study Bible advertisement~~ (Doesn't give enough room for creativity)
 * ~~Site for church Parent's Day Out ministry~~ (Easy to make with existing platform, wouldn't be useful to them)
-* **Site for Reese**
+~~**Site for Reese**~~ (Not enough time to get info)
+***Website for non-profit***

@@ -58,7 +58,12 @@ nav a:hover, nav a:focus {
     background-color: #555555;
 }
 
-.current {
+.navscroll {
+    padding: 15px;
+    font-size: 12px;
+}
+
+#current {
 	color: #ffffff;
 	background-color: #000000;
 }
@@ -71,11 +76,52 @@ main {
     border-radius: 50px;
 }
 
+#menu {
+    display: none;
+}
+
+@media screen and (max-width: 850px) {
+    #menu {
+        display: inline-block;
+    }
+
+    nav {
+        display: none;
+        margin: 0;
+        text-align: center;
+    }
+
+    .navshown {
+        display: block;
+    }
+
+    nav a {
+        padding: 12px;
+        font-size: 15px;
+        margin: 0;
+    }
+
+    nav li {
+        display: block;
+        padding: 12px;
+    }
+
+    .navscroll {
+        padding: 12px;
+        margin: 0;
+        font-size: 15px;
+    }
+}
+
 @media screen and (max-width: 370px) {
 	header {
 		margin: 10px;
 		width: calc(100% - 39px);
 	}
+    nav a {
+        padding: 5px;
+        font-size: 12px;
+    }
 }
 
 article {
