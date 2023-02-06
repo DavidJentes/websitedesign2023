@@ -2,13 +2,13 @@
 
 body {
     font-family: "Roboto", sans-serif;
-	background-color: #bbbbbb;
+	background-color: #55aadd;
     margin: 0;
 }
 
 header {
     color: #000000;
-    background-color: #ffffff;
+    background-color: #ffaa77;
     margin: 20px;
     padding: 10px;
     border-radius: 50px;
@@ -80,14 +80,13 @@ main {
     display: none;
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 1000px) {
     #menu {
         display: inline-block;
     }
 
     nav {
         display: none;
-        margin: 0;
         text-align: center;
     }
 
@@ -98,7 +97,6 @@ main {
     nav a {
         padding: 12px;
         font-size: 15px;
-        margin: 0;
     }
 
     nav li {
@@ -108,7 +106,6 @@ main {
 
     .navscroll {
         padding: 12px;
-        margin: 0;
         font-size: 15px;
     }
 }
