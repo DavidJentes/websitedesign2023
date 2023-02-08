@@ -14,6 +14,7 @@ function headerScroll() {
 		for (const button of headerButtons) {
 			button.children[0].className = "navscroll"
 		}
+		menuButton.style.width = "20px"
 	} else {
 		header.style.padding = "10px"
 		headerText.style.fontSize = "32px"
@@ -21,5 +22,6 @@ function headerScroll() {
 		for (const button of headerButtons) {
 			button.children[0].className = ""
 		}
+		menuButton.style.width = "25px"
 	}
 }
