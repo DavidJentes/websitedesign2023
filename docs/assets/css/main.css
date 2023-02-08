@@ -125,6 +125,22 @@ article {
     text-align: left;
 }
 
+img {
+    width: 100%;
+}
+
+.center {
+    text-align: center;
+}
+
+.round {
+    border-radius: 50px;
+}
+
+.smallimg {
+    width: 50%;
+}
+
 footer {
     text-align: center;
 }
