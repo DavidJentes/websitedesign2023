@@ -1,5 +1,8 @@
 # David Jentes' Website Design
+## Chereb Foundation
 ## Cumberland Valley Regional Student Convention 2023
+
+You can see the website up to the latest commit [here](https://wd.daviddgtnt.xyz)
 
 This is a work-in-progress Website Design to be entered into competition at Cumberland Valley RSC 2023. I'm hoping to place at International Student Convention this year, since I was just under the threshold last year. This website design is going to be based off of 2022 design trends, and is going to be optimized for mobile.
 
