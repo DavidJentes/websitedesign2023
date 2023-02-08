@@ -80,6 +80,10 @@ main {
     display: none;
 }
 
+.smallimg {
+    width: 25%;
+}
+
 @media screen and (max-width: 1000px) {
     #menu {
         display: inline-block;
@@ -107,6 +111,10 @@ main {
     .navscroll {
         padding: 12px;
         font-size: 15px;
+    }
+
+    .smallimg {
+        width: 50%;
     }
 }
 
@@ -137,8 +145,12 @@ img {
     border-radius: 50px;
 }
 
-.smallimg {
-    width: 50%;
+section {
+    background-color: #444444;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 50px;
+    margin: 10px;
 }
 
 footer {
