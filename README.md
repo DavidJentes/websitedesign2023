@@ -15,5 +15,5 @@ Main goals of the project:
 
 There are two mirrors of this project.
 
-[DavidDGTNT CGit mirror](https://daviddgtnt.duckdns.org/cgit/websitedesign2023)
+[DavidDGTNT CGit mirror](https://git.daviddgtnt.xyz/cgit/websitedesign2023)
 [GitHub mirror](https://github.com/DavidJentes/websitedesign2023)
