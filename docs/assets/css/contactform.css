@@ -1,0 +1,12 @@
+main {
+    overflow: auto;
+}
+
+input[type=date] {
+    font-family: sans-serif;
+}
+
+textarea {
+    resize: none;
+    font-family: sans-serif;
+}

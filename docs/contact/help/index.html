@@ -2,11 +2,12 @@
 <html>
 
 <head>
-	<title>Contact Us - The Chereb Foundation</title>
+	<title>Help Request - The Chereb Foundation</title>
 	<meta name="viewport" content="width=device-width" />
 	<link rel="stylesheet" href="../assets/css/main.css">
 	<link rel="stylesheet" href="../assets/css/pages.css">
 	<link rel="stylesheet" href="../assets/css/movement.css">
+	<link rel="stylesheet" href="../assets/css/contactform.css">
 </head>
 
 <body>
@@ -24,22 +25,19 @@
 		</nav>
 	</header>
 	<main data-m="drop" data-m-duration="0.5">
-		<h1>Contact Us</h1>
+		<h1>Help Request Form</h1>
 		<article>
-			<h2>Online</h2>
-			<a href="contact/general">General Inquiry</a><br />
-			<a href="contact/help">Request Help</a><br />
-			<a href="contact/volunteer">Volunteer Application</a>
-			<h2>E-mail</h2>
-			<span>General Inquiry: <a href="mailto:tcfgi@daviddgtnt.xyz">tcfgi@daviddgtnt.xyz</a></a></span><br />
-			<span>Request Help: <a href="mailto:tcfhelp@daviddgtnt.xyz">tcfhelp@daviddgtnt.xyz</a></span><br />
-			<span>Volunteer Application: <a href="mailto:tcfhelp@daviddgtnt.xyz">tcfvol@daviddgtnt.xyz</a></span>
-			<h2>Phone</h2>
-			<span>Our phone number is 1 (800) 555-2368.</span><br />
-			<span>We do not take volunteer applications over the phone.</span>
-			<h2>Mail</h2>
-			<span>You can send us mail to the address of our headquarters, shown below.</span><br />
-			<span>The Chereb Foundation<br />399 Glenwood Dr.<br />Wisconsin Rapids, WI 53394</span>
+			<form action="../contact" method="post">
+				<label for="name">What is your name?</label><br />
+				<input id="name" name="name" type="text" /><br />
+				<label for="email">What is your e-mail address?</label><br />
+				<input id="email" name="email" type="email" /><br />
+				<label for="situation">Please explain your situation in the area below.</label><br />
+				<textarea id="situation" name="situation" rows="15" cols="37"></textarea><br />
+				<label for="need">What help do you need?</label><br />
+				<textarea id="need" name="need" rows="15" cols="37"></textarea><br />
+				<input type="submit" value="Send">
+			</form>
 		</article>
 	</main>
 	<footer data-m="bounce-up" data-m-duration="0.5">
