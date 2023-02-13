@@ -123,6 +123,14 @@ section p {
     .right {
         grid-column: 2;
     }
+
+    section div {
+        width: 50%;
+    }
+
+    section p {
+        width: 50%;
+    }
 }
 
 @media screen and (max-width: 1000px) {
