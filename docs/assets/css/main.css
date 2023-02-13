@@ -80,8 +80,31 @@ main {
     display: none;
 }
 
-.smallimg {
-    width: 25%;
+.grid {
+    display: inline-grid;
+    columns: 2;
+}
+
+.griditem {
+    margin: 10px;
+}
+
+@media screen and (min-width: 1000px) {
+    .top {
+        grid-row: 1;
+    }
+    
+    .bottom {
+        grid-row: 2;
+    }
+
+    .left {
+        grid-column: 1;
+    }
+
+    .right {
+        grid-column: 2;
+    }
 }
 
 @media screen and (max-width: 1000px) {
