@@ -93,6 +93,24 @@ main {
     margin: 10px;
 }
 
+.smallimg {
+    width: 50%;
+}
+
+section {
+    display: flex;
+    background-color: #444444;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 50px;
+    margin: 10px;
+    align-items: center;
+}
+
+section p {
+    font-size: 1.5vw;
+}
+
 @media screen and (min-width: 1000px) {
     .top {
         grid-row: 1;
@@ -108,6 +126,14 @@ main {
 
     .right {
         grid-column: 2;
+    }
+
+    section div {
+        width: 50%;
+    }
+
+    section p {
+        width: 50%;
     }
 }
 
@@ -140,8 +166,12 @@ main {
         font-size: 15px;
     }
 
-    .smallimg {
-        width: 50%;
+    section {
+        flex-direction: column;
+    }
+
+    section p {
+        font-size: 16px;
     }
 }
 
@@ -170,14 +200,6 @@ img {
 
 .round {
     border-radius: 50px;
-}
-
-section {
-    background-color: #444444;
-    color: #ffffff;
-    padding: 10px;
-    border-radius: 50px;
-    margin: 10px;
 }
 
 footer {
