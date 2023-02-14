@@ -80,6 +80,10 @@ main {
     display: none;
 }
 
+.smallimg {
+    width: 25%;
+}
+
 .grid {
     display: inline-grid;
     columns: 2;
