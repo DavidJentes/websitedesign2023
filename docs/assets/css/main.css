@@ -131,6 +131,10 @@ section a:hover, section a:focus {
     color: #dddddd;
 }
 
+.extrapadding {
+    padding: 20px;
+}
+
 @media screen and (min-width: 1000px) {
     .top {
         grid-row: 1;
