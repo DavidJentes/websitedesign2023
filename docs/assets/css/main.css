@@ -6,6 +6,15 @@ body {
     margin: 0;
 }
 
+a {
+    color: #333333;
+    text-decoration: underline;
+}
+
+a:hover, a:focus {
+    color: #444444;
+}
+
 header {
     color: #ffffff;
     background-color: #00008b;
@@ -94,17 +103,32 @@ main {
 }
 
 section {
-    display: flex;
     background-color: #444444;
     color: #ffffff;
     padding: 10px;
     border-radius: 50px;
     margin: 10px;
+}
+
+.flex {
+    display: flex;
     align-items: center;
+}
+
+.textleft {
+    text-align: left
 }
 
 section p {
     font-size: 1.5vw;
+}
+
+section a {
+    color: #eeeeee;
+}
+
+section a:hover, section a:focus {
+    color: #dddddd;
 }
 
 @media screen and (min-width: 1000px) {
@@ -124,12 +148,8 @@ section p {
         grid-column: 2;
     }
 
-    section div {
-        width: 50%;
-    }
-
-    section p {
-        width: 50%;
+    .half {
+        width: 50%
     }
 }
 
@@ -162,7 +182,7 @@ section p {
         font-size: 15px;
     }
 
-    section {
+    .col {
         flex-direction: column;
     }
 
