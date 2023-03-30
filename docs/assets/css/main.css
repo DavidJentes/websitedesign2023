@@ -132,7 +132,7 @@ section a:hover, section a:focus {
 }
 
 .extrapadding {
-    padding: 20px;
+    padding: 25px;
 }
 
 @media screen and (min-width: 1000px) {
