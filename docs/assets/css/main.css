@@ -155,6 +155,10 @@ section a:hover, section a:focus {
     .half {
         width: 50%
     }
+
+    section p {
+        margin: 10px;
+    }
 }
 
 @media screen and (max-width: 1000px) {
