@@ -157,7 +157,7 @@ section a:hover, section a:focus {
     }
 
     section p {
-        margin: 10px;
+        padding: 25px;
     }
 }
 
