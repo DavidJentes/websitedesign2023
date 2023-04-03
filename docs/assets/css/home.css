@@ -9,6 +9,11 @@
     background-size: cover;
     background-position: center;
 	z-index: 10;
+    font-family: 'Pacifico', cursive;
+}
+
+.fcenter {
+    align-self: center;
 }
 
 @media screen and (max-width: 850px) {
