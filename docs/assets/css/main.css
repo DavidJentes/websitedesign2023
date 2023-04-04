@@ -135,9 +135,48 @@ section a:hover, section a:focus {
     padding: 25px;
 }
 
+.extramargin {
+    margin: 30px;
+}
+
 .centercontainer {
     display: inline-block;
     text-align: left;
+}
+
+.nowidth {
+    width: unset;
+}
+
+.shopimage {
+    width: 10%;
+    height: auto;
+}
+
+.fill {
+    width: 90%;
+}
+
+.button {
+    display: inline-block;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 30px;
+    font-size: 16px;
+    background-color: #777777;
+    color: #ffffff;
+    text-decoration: none;
+    transition: background-color 750ms;
+}
+
+.button:hover {
+    color: #ffffff;
+    background-color: #555555;
+}
+
+.iblock {
+    display: inline-block;
+    width: 90%;
 }
 
 @media screen and (min-width: 1000px) {
@@ -201,6 +240,14 @@ section a:hover, section a:focus {
 
     section p {
         font-size: 16px;
+    }
+
+    .shopimage {
+        width: 25%;
+    }
+
+    .iblock {
+        width: 100%;
     }
 }
 
