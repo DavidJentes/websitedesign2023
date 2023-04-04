@@ -139,6 +139,10 @@ section a:hover, section a:focus {
     margin: 30px;
 }
 
+.lessmargin {
+    margin: 5px;
+}
+
 .centercontainer {
     display: inline-block;
     text-align: left;
@@ -177,6 +181,10 @@ section a:hover, section a:focus {
 .iblock {
     display: inline-block;
     width: 90%;
+}
+
+.third {
+    width: 30%;
 }
 
 @media screen and (min-width: 1000px) {
@@ -248,6 +256,15 @@ section a:hover, section a:focus {
 
     .iblock {
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .smallcolumn {
+        flex-direction: column;
+    }
+    .third {
+        width: 60%;
     }
 }
 
