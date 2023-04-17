@@ -103,8 +103,8 @@ main {
 }
 
 section {
-    background-color: #444444;
-    color: #ffffff;
+    background-color: #bbbbbb;
+    color: #000000;
     padding: 10px;
     border-radius: 50px;
     margin: 10px;
@@ -124,11 +124,11 @@ section p {
 }
 
 section a {
-    color: #eeeeee;
+    color: #444444;
 }
 
 section a:hover, section a:focus {
-    color: #dddddd;
+    color: #666666;
 }
 
 .extrapadding {
