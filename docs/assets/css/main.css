@@ -35,6 +35,13 @@ header h1 {
     transition: font-size 200ms;
 }
 
+.logo {
+    display: inline-block;
+    width: 75px;
+    height: 75px;
+    transition: width 300ms, height 300ms;
+}
+
 nav {
     text-align: right;
     display: inline-block;
