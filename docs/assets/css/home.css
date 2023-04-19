@@ -1,5 +1,6 @@
 .cover {
-    color: #2020ab;
+    color: #55aadd;
+    text-shadow: -1px 1px 0 #000000, 1px 1px 0 #000000, 1px -1px 0 #000000, -1px -1px 0 #000000;
     text-align: center;
     width: 100%;
     padding: 25% 0px;
