@@ -110,11 +110,26 @@ main {
 }
 
 section {
-    background-color: #bbbbbb;
+    background-color: #aaaaff;
     color: #000000;
     padding: 10px;
     border-radius: 50px;
     margin: 10px;
+}
+
+.red {
+    background-color: #880000;
+    color: #ffffff;
+}
+
+.green {
+    background-color: #008800;
+    color: #ffffff;
+}
+
+.blue {
+    background-color: #000088;
+    color: #ffffff;
 }
 
 .flex {
@@ -136,6 +151,15 @@ section a {
 
 section a:hover, section a:focus {
     color: #666666;
+}
+
+
+.red a, .green a, .blue a {
+    color: #bbbbbb;
+}
+
+.red a:hover, .green a:hover, .blue a:hover, .red a:focus, .green a:focus, .blue a:focus {
+    color: #999999;
 }
 
 .extrapadding {
@@ -221,6 +245,10 @@ section a:hover, section a:focus {
 }
 
 @media screen and (max-width: 1000px) {
+    .largercolumn {
+        flex-direction: column;
+    }
+
     #menu {
         display: inline-block;
     }
@@ -262,7 +290,7 @@ section a:hover, section a:focus {
     }
 
     .iblock {
-        width: 100%;
+        width: 60%;
     }
 }
 
@@ -300,6 +328,10 @@ img {
 
 .round {
     border-radius: 50px;
+}
+
+.smallround {
+    border-radius: 10px;
 }
 
 footer {
