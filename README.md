@@ -2,9 +2,9 @@
 ## Chereb Foundation
 ## International Student Convention 2023
 
-You can see the website up to the latest commit [here](https://wd.daviddgtnt.xyz)
+You can see the finished website [here](https://wd.daviddgtnt.xyz)
 
-This is a Website Design that I entered into competition at Cumberland Valley RSC 2023, winning fourth place. I'm hoping to place at International Student Convention this year, since I was just under the threshold last year. This website design is based off of 2022 design trends, and is optimized for mobile.
+This is a Website Design that I entered into competition at Cumberland Valley RSC 2023, winning fourth place. I'm hoping to place at International Student Convention this year, since I was just under the threshold at 7th place last year. This website design is based off of 2022 design trends, and is optimized for mobile.
 
 Main goals of the project:
 
