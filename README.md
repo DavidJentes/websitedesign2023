@@ -2,7 +2,7 @@
 ## Chereb Foundation
 ## International Student Convention 2023
 
-You can see the finished website [here](https://wd.daviddgtnt.xyz)
+You can see the finished website [here](https://wd23.daviddgtnt.xyz)
 
 This is a Website Design that I entered into competition at Cumberland Valley RSC 2023, winning fourth place. I'm hoping to place at International Student Convention this year, since I was just under the threshold at 7th place last year. This website design is based off of 2022 design trends, and is optimized for mobile.
 
@@ -18,5 +18,5 @@ Main goals of the project:
 
 There are two mirrors of this project.
 
-[DavidDGTNT CGit mirror](https://git.daviddgtnt.xyz/davidjentes/websitedesign2023)
+[DavidDGTNT Git mirror](https://git.daviddgtnt.xyz/davidjentes/websitedesign2023)
 [GitHub mirror](https://github.com/DavidJentes/websitedesign2023)
